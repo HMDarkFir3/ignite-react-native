@@ -18,8 +18,6 @@ Desafio Principal, Chapter 02, Ignite (Rocketseat) - React Native.
 
 Dentro da pasta do projeto, siga as instruções abaixo.
 
----
-
 ### 🎲 Rodando a Aplicação
 
 ```bash
