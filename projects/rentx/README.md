@@ -16,17 +16,7 @@ Aplicativo desenvolvido no Chapter 03 e Chaptet 04 do Ignite (Rocketseat) - Reac
 
 ## 📂 Como rodar este projeto
 
-Para clonar e executar este aplicativo, você precisará de [Git](https://git-scm.com), [NodeJs](https://nodejs.org/en/) e [Android Studio](https://developer.android.com/studio) Instalado em seu computador.
-
-### 🌀 Clonando o repositório
-
-```bash
-# Clone este repositório
-$ git clone https://github.com/HMDarkFir3/ignite-react-native-rentx.git
-
-# Acesse a pasta do projeto no terminal/cmd
-$ cd ignite-react-native-rentx
-```
+Dentro da pasta do projeto, siga as instruções abaixo.
 
 ### 🎲 Rodando a Aplicação
 
