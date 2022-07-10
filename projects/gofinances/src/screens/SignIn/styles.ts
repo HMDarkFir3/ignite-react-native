@@ -1,0 +1,56 @@
+//styled-components
+import styled from "styled-components/native";
+
+//react-native-responsive-fontsize
+import { RFPercentage, RFValue } from "react-native-responsive-fontsize";
+
+export const Container = styled.View`
+  flex: 1;
+`;
+
+export const Header = styled.View`
+  align-items: center;
+  justify-content: flex-end;
+
+  width: 100%;
+  height: 70%;
+
+  background-color: ${({ theme }) => theme.colors.primary};
+`;
+
+export const TitleWrapper = styled.View`
+  align-items: center;
+`;
+
+export const Title = styled.Text`
+  margin-top: 45px;
+
+  text-align: center;
+  font-family: ${({ theme }) => theme.fonts.medium};
+  font-size: ${RFValue(30)}px;
+  color: ${({ theme }) => theme.colors.shape};
+`;
+
+export const SignInTitle = styled.Text`
+  margin-top: 80px;
+  margin-bottom: 67px;
+
+  text-align: center;
+  font-family: ${({ theme }) => theme.fonts.regular};
+  font-size: ${RFValue(16)}px;
+  color: ${({ theme }) => theme.colors.shape};
+`;
+
+export const Footer = styled.View`
+  width: 100%;
+  height: 30%;
+
+  background-color: ${({ theme }) => theme.colors.secondary};
+`;
+
+export const SignInWrapper = styled.View`
+  justify-content: space-between;
+
+  padding: 0 24px;
+  margin-top: ${RFPercentage(-4)}px;
+`;
