@@ -16,17 +16,7 @@ Aplicativo desenvolvido no Chapter 02 do Ignite (Rocketseat) - React Native.
 
 ## 📂 Como rodar este projeto
 
-Para clonar e executar este aplicativo, você precisará de [Git](https://git-scm.com), [NodeJs](https://nodejs.org/en/) e [Android Studio](https://developer.android.com/studio) Instalado em seu computador.
-
-### 🌀 Clonando o repositório
-
-```bash
-# Clone este repositório
-$ git clone https://github.com/HMDarkFir3/Ignite_GoFinances.git
-
-# Acesse a pasta do projeto no terminal/cmd
-$ cd Ignite_GoFinances
-```
+Dentro da pasta do projeto, siga as instruções abaixo.
 
 ### 🎲 Rodando a Aplicação
 
