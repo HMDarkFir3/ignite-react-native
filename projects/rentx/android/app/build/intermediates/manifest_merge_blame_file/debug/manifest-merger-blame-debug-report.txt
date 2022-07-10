@@ -1,0 +1,191 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rentx"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:4:3-75
+11-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:4:20-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:2:3-64
+12-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:2:20-62
+13    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+13-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:5:3-72
+13-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:5:20-70
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:6:3-63
+14-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:6:20-61
+15    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" /> <!-- These require runtime permissions on M -->
+15-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:7:3-77
+15-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:7:20-75
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:9:3-77
+16-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:9:20-75
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:10:3-78
+17-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:10:20-76
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->[com.facebook.flipper:flipper:0.54.0] /home/henrique/.gradle/caches/transforms-3/7ced98fae9ea2b5aa64e54aefef0d400/transformed/jetified-flipper-0.54.0/AndroidManifest.xml:16:5-76
+18-->[com.facebook.flipper:flipper:0.54.0] /home/henrique/.gradle/caches/transforms-3/7ced98fae9ea2b5aa64e54aefef0d400/transformed/jetified-flipper-0.54.0/AndroidManifest.xml:16:22-73
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required for picking images from camera directly -->
+19-->[:expo-updates] /home/henrique/devlopment/react-native/ignite-react-native-rentx/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-79
+19-->[:expo-updates] /home/henrique/devlopment/react-native/ignite-react-native-rentx/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-76
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->[:expo-image-picker] /home/henrique/devlopment/react-native/ignite-react-native-rentx/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-65
+20-->[:expo-image-picker] /home/henrique/devlopment/react-native/ignite-react-native-rentx/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-62
+21
+22    <queries>
+22-->[:expo-image-picker] /home/henrique/devlopment/react-native/ignite-react-native-rentx/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-28:15
+23        <intent>
+23-->[:expo-image-picker] /home/henrique/devlopment/react-native/ignite-react-native-rentx/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-22:18
+24
+25            <!-- Required for picking images from the camera roll if targeting API 30 -->
+26            <action android:name="android.media.action.IMAGE_CAPTURE" />
+26-->[:expo-image-picker] /home/henrique/devlopment/react-native/ignite-react-native-rentx/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-73
+26-->[:expo-image-picker] /home/henrique/devlopment/react-native/ignite-react-native-rentx/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:21-70
+27        </intent>
+28        <intent>
+28-->[:expo-image-picker] /home/henrique/devlopment/react-native/ignite-react-native-rentx/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:9-27:18
+29
+30            <!-- Required for picking images from the camera if targeting API 30 -->
+31            <action android:name="android.media.action.ACTION_VIDEO_CAPTURE" />
+31-->[:expo-image-picker] /home/henrique/devlopment/react-native/ignite-react-native-rentx/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-80
+31-->[:expo-image-picker] /home/henrique/devlopment/react-native/ignite-react-native-rentx/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:21-77
+32        </intent>
+33    </queries>
+34
+35    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+35-->[com.android.installreferrer:installreferrer:1.0] /home/henrique/.gradle/caches/transforms-3/bd4b0bb0f4732ffd730991a6d890cdc4/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+35-->[com.android.installreferrer:installreferrer:1.0] /home/henrique/.gradle/caches/transforms-3/bd4b0bb0f4732ffd730991a6d890cdc4/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+36
+37    <application
+37-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:12:3-36:17
+38        android:name="com.rentx.MainApplication"
+38-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:13:5-36
+39        android:allowBackup="false"
+39-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:17:5-32
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.3.2] /home/henrique/.gradle/caches/transforms-3/b20daec8e43faad277a00109446025c6/transformed/core-1.3.2/AndroidManifest.xml:24:18-86
+41        android:debuggable="true"
+42        android:icon="@mipmap/ic_launcher"
+42-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:15:5-39
+43        android:label="@string/app_name"
+43-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:14:5-37
+44        android:roundIcon="@mipmap/ic_launcher_round"
+44-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:16:5-50
+45        android:theme="@style/AppTheme"
+45-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:18:5-36
+46        android:usesCleartextTraffic="true" >
+46-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/debug/AndroidManifest.xml:6:18-53
+47        <meta-data
+47-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:20:5-103
+48            android:name="expo.modules.updates.EXPO_UPDATE_URL"
+48-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:20:16-67
+49            android:value="YOUR-APP-URL-HERE" />
+49-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:20:68-101
+50        <meta-data
+50-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:21:5-112
+51            android:name="expo.modules.updates.EXPO_SDK_VERSION"
+51-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:21:16-68
+52            android:value="YOUR-APP-SDK-VERSION-HERE" />
+52-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:21:69-110
+53
+54        <activity
+54-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:22:5-34:16
+55            android:name="com.rentx.MainActivity"
+55-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:23:7-35
+56            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+56-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:25:7-84
+57            android:label="@string/app_name"
+57-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:24:7-39
+58            android:launchMode="singleTask"
+58-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:26:7-38
+59            android:theme="@style/Theme.App.SplashScreen"
+59-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:28:7-52
+60            android:windowSoftInputMode="adjustResize" >
+60-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:27:7-49
+61            <intent-filter>
+61-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:30:7-33:23
+62                <action android:name="android.intent.action.MAIN" />
+62-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:31:9-60
+62-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:31:17-58
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:32:9-68
+64-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:32:19-66
+65            </intent-filter>
+66        </activity>
+67        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+67-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:35:5-81
+67-->/home/henrique/devlopment/react-native/ignite-react-native-rentx/android/app/src/main/AndroidManifest.xml:35:15-79
+68
+69        <meta-data
+69-->[:unimodules-react-native-adapter] /home/henrique/devlopment/react-native/ignite-react-native-rentx/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:91
+70            android:name="org.unimodules.core.AppLoader#react-native-headless"
+70-->[:unimodules-react-native-adapter] /home/henrique/devlopment/react-native/ignite-react-native-rentx/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-79
+71            android:value="org.unimodules.adapters.react.apploader.RNHeadlessAppLoader" />
+71-->[:unimodules-react-native-adapter] /home/henrique/devlopment/react-native/ignite-react-native-rentx/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-88
+72
+73        <provider
+73-->[:expo-file-system] /home/henrique/devlopment/react-native/ignite-react-native-rentx/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-26:20
+74            android:name="expo.modules.filesystem.FileSystemFileProvider"
+74-->[:expo-file-system] /home/henrique/devlopment/react-native/ignite-react-native-rentx/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-74
+75            android:authorities="com.rentx.FileSystemFileProvider"
+75-->[:expo-file-system] /home/henrique/devlopment/react-native/ignite-react-native-rentx/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-74
+76            android:exported="false"
+76-->[:expo-file-system] /home/henrique/devlopment/react-native/ignite-react-native-rentx/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-37
+77            android:grantUriPermissions="true" >
+77-->[:expo-file-system] /home/henrique/devlopment/react-native/ignite-react-native-rentx/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-47
+78            <meta-data
+78-->[:expo-file-system] /home/henrique/devlopment/react-native/ignite-react-native-rentx/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-25:70
+79                android:name="android.support.FILE_PROVIDER_PATHS"
+79-->[:expo-file-system] /home/henrique/devlopment/react-native/ignite-react-native-rentx/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:17-67
+80                android:resource="@xml/file_system_provider_paths" />
+80-->[:expo-file-system] /home/henrique/devlopment/react-native/ignite-react-native-rentx/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+81        </provider>
+82
+83        <activity
+83-->[:expo-image-picker] /home/henrique/devlopment/react-native/ignite-react-native-rentx/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:9-33:59
+84            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+84-->[:expo-image-picker] /home/henrique/devlopment/react-native/ignite-react-native-rentx/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:13-76
+85            android:theme="@style/Base.Theme.AppCompat" /> <!-- https://developer.android.com/guide/topics/manifest/provider-element.html -->
+85-->[:expo-image-picker] /home/henrique/devlopment/react-native/ignite-react-native-rentx/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:13-56
+86        <provider
+86-->[:expo-image-picker] /home/henrique/devlopment/react-native/ignite-react-native-rentx/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:9-43:20
+87            android:name="expo.modules.imagepicker.ImagePickerFileProvider"
+87-->[:expo-image-picker] /home/henrique/devlopment/react-native/ignite-react-native-rentx/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-76
+88            android:authorities="com.rentx.ImagePickerFileProvider"
+88-->[:expo-image-picker] /home/henrique/devlopment/react-native/ignite-react-native-rentx/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-75
+89            android:exported="false"
+89-->[:expo-image-picker] /home/henrique/devlopment/react-native/ignite-react-native-rentx/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-37
+90            android:grantUriPermissions="true" >
+90-->[:expo-image-picker] /home/henrique/devlopment/react-native/ignite-react-native-rentx/node_modules/expo-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-47
+91            <meta-data
+91-->[:expo-file-system] /home/henrique/devlopment/react-native/ignite-react-native-rentx/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-25:70
+92                android:name="android.support.FILE_PROVIDER_PATHS"
+92-->[:expo-file-system] /home/henrique/devlopment/react-native/ignite-react-native-rentx/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:17-67
+93                android:resource="@xml/image_picker_provider_paths" />
+93-->[:expo-file-system] /home/henrique/devlopment/react-native/ignite-react-native-rentx/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+94        </provider>
+95
+96        <meta-data
+96-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] /home/henrique/.gradle/caches/transforms-3/063bdf63fbdcebaad7ee6fb3b293db33/transformed/jetified-okhttp3-integration-4.11.0/AndroidManifest.xml:11:9-13:43
+97            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+97-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] /home/henrique/.gradle/caches/transforms-3/063bdf63fbdcebaad7ee6fb3b293db33/transformed/jetified-okhttp3-integration-4.11.0/AndroidManifest.xml:12:13-84
+98            android:value="GlideModule" />
+98-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] /home/henrique/.gradle/caches/transforms-3/063bdf63fbdcebaad7ee6fb3b293db33/transformed/jetified-okhttp3-integration-4.11.0/AndroidManifest.xml:13:13-40
+99
+100        <service
+100-->[androidx.room:room-runtime:2.1.0] /home/henrique/.gradle/caches/transforms-3/3b5db4b3b22ae452a34a6490900f58b2/transformed/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
+101            android:name="androidx.room.MultiInstanceInvalidationService"
+101-->[androidx.room:room-runtime:2.1.0] /home/henrique/.gradle/caches/transforms-3/3b5db4b3b22ae452a34a6490900f58b2/transformed/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
+102            android:exported="false" />
+102-->[androidx.room:room-runtime:2.1.0] /home/henrique/.gradle/caches/transforms-3/3b5db4b3b22ae452a34a6490900f58b2/transformed/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
+103    </application>
+104
+105</manifest>
